@@ -3,7 +3,7 @@ from flask_migrate import Migrate,MigrateCommand
 from mybbs import app
 from exts import db
 from apps.cms import models
-
+#3ddd
 
 manager=Manager(app)
 Migrate(app,db)
